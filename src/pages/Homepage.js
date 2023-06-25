@@ -7,7 +7,7 @@ function Homepage() {
         <div>
             <Header />
             <div className='Homepage-container'>
-                <div className='welcome-section'>
+                <div className='welcome-section container'>
                     <div className='Homepage-content'>
                         <h1><span className='Homepage-content-title'>Strategic Organizational Development Solutions</span></h1>
                         <p className='Homepage-content-text'> <strong> <i className="tag-name">Moore Advanced Solutions</i></strong> is a provider of tailored consulting services to higher education institutions, for-profit and non-profit organizations.</p>
@@ -22,7 +22,7 @@ function Homepage() {
                 
 
                 {/* What we do */}
-                <section className="what-we-do">
+                <section className="what-we-do container">
                     <div className="punchline">
                         <p> The goal at <strong><i className="tagline">Moore Advanced Solutions</i></strong> is to create a positive consulting experience for all clients. The foundation of clients relationships
                             in grounded in listening and collaborating with clients to develop realistic recommendations and solutions to meet their organizational needs.</p>
@@ -55,7 +55,7 @@ function Homepage() {
                 </section>
 
                 {/* About us */}
-                <section className="about-us">
+                <section className="about-us container">
                     <div className="about-us-image">
                     <img src="./assets/images/ian-schneider-TamMbr4okv4-unsplash.jpg" alt="" width={'600'}height={'500'}/>
                     </div>
@@ -68,7 +68,7 @@ function Homepage() {
                 </section>
 
                 {/* Services section */}
-                <section className="services-offered">
+                <section className="services-offered container">
                     <div className="services-offered-content">
                         <h1 className="services-offered-title">Services</h1>
                         {/* <p>Moore Advanced Solutions: Tailored consulting for education, for-profit, and non-profit organizations to optimize effectiveness and drive sustainable success.</p> */}
@@ -172,7 +172,7 @@ function Homepage() {
 
 
                 {/* CTA */}
-                <section className='cta-section'>
+                <section className='cta-section container'>
                     <div className='text-box'>
                         <h2>Let's work together</h2>
                         {/* <p>

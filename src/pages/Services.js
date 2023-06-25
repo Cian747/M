@@ -18,7 +18,7 @@ function Services() {
                     effectiveness to reach their organizational and business goals.</p>
                 </div>
             </section> */}
-            <section className="services-container">
+            <section className="services-container container">
                 <div className="service primary">
                     <div className="service-image">
                         <img src='./assets/images/alexander-grey-eMP4sYPJ9x0-unsplash.jpg' alt="" width={'500'} height={'500'}/>
