@@ -326,13 +326,39 @@ body {
 /*****************************/
 /* Contact us                */
 /*****************************/
-.contact {
+
+.contact-us {
+  min-height: 100vh;
+  /* background-color: #1e3653; */
+  /* color: #fff; */
+  /* min-width: 100vw; */
+  /*display: flex;
+  flex-direction: column; */
+}
+
+.contact-us .content {
+  text-align: center;
+  padding: 9.6rem 0;
+}
+
+.contact-us .content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.contact-us-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* .contact {
   background-color: #1e3653;
   padding: 9.6rem;
 }
 
 .contact-wrapper {
-  /* background-image: url('../public/assets/logo/Moore\ Advanced\ Solutions\ \(1\).svg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70%;
@@ -370,10 +396,6 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 3.2rem;
-  row-gap: 2.4rem; */
 }
 
 .contact-form .input-group {
@@ -425,7 +447,7 @@ body {
 
 .contact-form button:hover {
   opacity: 1;
-}
+} */
 
 /*****************************/
 /* Page not found            */
@@ -658,6 +680,12 @@ button {
 strong{
   color: #f1bf48;
 }
+
+.tag-name{
+  font-size: 22px;
+  font-weight: 800;
+}
+
 .tagline{
   color: #fff;
 }

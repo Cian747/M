@@ -8,7 +8,7 @@ function Services() {
     return(
         <div>
             <Header />
-            <LowerHeader textOne='SERVICES'/>
+            <LowerHeader text='SERVICES'/>
             {/* <section className="services-intro">
                 <div className="services-intro-text">
                     <h5>SERVICES</h5>
@@ -28,6 +28,7 @@ function Services() {
                             <h2>HIGHER EDUCATION ACCREDITATION</h2>
                         </div>
                         <p>Higher education institutions have a variety of needs accreditation needs. <i>Moore Advanced Solutions</i> can assist your institution with the following:</p>
+                        <br></br>
                             <ul>
                                 <li>Academic Program Development and Assessment</li>
                                 <li>Annual Reports</li>
@@ -60,6 +61,7 @@ function Services() {
                         <p>Organizational effectiveness refers to how effectively an organization achieves its desired goals. As organizations experience growth and expansion, unique
                             challenges and complexities may occur. <i>Moore Advanced Solutions</i> can provide support to manage such challenge by assisting your organization with the
                             following:</p>
+                            <br></br>
                             <ul>
                                 <li>Capacity Building</li>
                                 <li>Business and Goal setting</li>

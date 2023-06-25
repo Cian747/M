@@ -10,7 +10,7 @@ function Homepage() {
                 <div className='welcome-section'>
                     <div className='Homepage-content'>
                         <h1><span className='Homepage-content-title'>Strategic Organizational Development Solutions</span></h1>
-                        <p className='Homepage-content-text'> <strong>Moore Advanced Solutions</strong> is a provider of tailored consulting services to higher education institutions, for-profit and non-profit organizations.</p>
+                        <p className='Homepage-content-text'> <strong> <i className="tag-name">Moore Advanced Solutions</i></strong> is a provider of tailored consulting services to higher education institutions, for-profit and non-profit organizations.</p>
                         <div className='target-box'>
                             <button type="button" className="btn btn-primary "><Link to='/contact-us'>Contact Us</Link></button>
                         </div>
@@ -37,7 +37,7 @@ function Homepage() {
                             <p>Diagnosis and assessment of needs</p>
                         </div>
                         <div className="step">
-                            <img src="./assets/images/pexels-christina-morillo-1181605.jpg" alt=""/>
+                        <img src="./assets/images/christina-wocintechchat-com-rg1y72eKw6o-unsplash.jpg" alt=""/>
                             <h2>Goal setting</h2>
                             <p>Identification of objectives and goals</p>
                         </div>
@@ -71,7 +71,7 @@ function Homepage() {
                 <section className="services-offered">
                     <div className="services-offered-content">
                         <h1 className="services-offered-title">Services</h1>
-                        <p>Moore Advanced Solutions: Tailored consulting for education, for-profit, and non-profit organizations to optimize effectiveness and drive sustainable success.</p>
+                        {/* <p>Moore Advanced Solutions: Tailored consulting for education, for-profit, and non-profit organizations to optimize effectiveness and drive sustainable success.</p> */}
                     </div>
                     <div className="services-offered-list">
                         <div className="card main-service">
@@ -81,10 +81,10 @@ function Homepage() {
                             <div className="card__copy">
                                 <h1>HIGHER EDUCATION ACCREDITATION</h1>
                                 <br></br>
-                                <p>Moore Advanced Solutions provides strategic support for organizations related to the initiation, planning, implementation, and ongoing maintenance of accreditation.</p>
+                                <p>Strategic support for organizations related to the initiation, planning, implementation, and ongoing maintenance of accreditation.</p>
 
                                 <div className="btn-link">
-                                    <Link to='/services'>Click here to learn more about services offered</Link>
+                                    <Link to='/services'>Click here to learn more</Link>
                                 </div>
                             </div>
                         </div>
@@ -95,10 +95,10 @@ function Homepage() {
                             <div className="card__copy">
                                 <h1>ORGANIZATIONAL EFFECTIVENESS</h1>
                                 <br></br>
-                                <p>Moore Advanced Solutions provides support and guidance to organizations in managing such challenges. Specifically, Moore Advanced Solutions provides overall assistance with various elements of organizational effectiveness from strategic planning or organizational capacity building.</p>
+                                <p>Overall assistance with various elements of organizational effectiveness from strategic planning or organizational capacity building.</p>
 
                                 <div className="btn-link">
-                                    <Link to='/services'>Click here to learn more about services offered</Link>
+                                    <Link to='/services'>Click here to learn more</Link>
                                 </div>
 
                             </div>

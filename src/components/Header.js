@@ -19,9 +19,9 @@ function Header() {
         <li>
           <Link to='/faq'>FAQ</Link>
         </li>
-        {/* <li>
+        <li>
           <Link to='/contact-us'>Contact Us</Link>
-        </li> */}
+        </li>
       </ul>
     </div>
   );

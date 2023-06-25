@@ -7,7 +7,7 @@ function Faq(){
     return(
         <>
             <Header />
-            <LowerHeader textTwo='Frequently Asked Questions'/>
+            <LowerHeader text='Frequently Asked Questions'/>
             <div className="accordion-container">
                 <div className="Faq">
                     <div className="faq-box">
