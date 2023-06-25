@@ -95,7 +95,7 @@ function Homepage() {
                             <div className="card__copy">
                                 <h1>ORGANIZATIONAL EFFECTIVENESS</h1>
                                 <br></br>
-                                <p>Overall assistance with various elements of organizational effectiveness from strategic planning or organizational capacity building.</p>
+                                <p>Overall assistance with various elements of organizational effectiveness from strategic planning to organizational capacity building.</p>
 
                                 <div className="btn-link">
                                     <Link to='/services'>Click here to learn more</Link>
