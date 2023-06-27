@@ -49,6 +49,14 @@ const ENGAGEMENTS = [
         Sciences, Engineering, and Medicine, February 2022, Virtual`,
   },
   {
+    title: 'Board of Directors',
+    content: `, Spooky Action Theater, Washington, DC, 2020-2022`,
+  },
+  {
+    title: 'Leadership Council Member',
+    content: `, Open Society Institute-Baltimore, Baltimore, MD, 2014-2022`,
+  },
+  {
     title: 'Keynote Presenter',
     content: `, “Moving toward a more socially
         conscious oversight of quality: social justice and quality assurance,”
@@ -56,7 +64,7 @@ const ENGAGEMENTS = [
         2021, Virtual`,
   },
   {
-    title: '2021 Appeal Board Member (Volunteer)',
+    title: 'Appeal Board Member (Volunteer)',
     content: `, Accreditation
         Review Commission on Education for the Physician Assistant`,
   },
@@ -84,18 +92,6 @@ const ENGAGEMENTS = [
         Assurance and Accreditation, Morgan State University Graduate Seminar,
         October 2012, Baltimore, MD, USA`,
   },
-  {
-    title: 'Authored article entitled',
-    content: `, “Lessons on Civic Education
-        from the Past and the Present.” Around the Circle: Research & Practice.
-        Volume 3, Issue 1. August 2005.`,
-  },
-  {
-    title: 'Co-authored',
-    content: ` published research study using regression
-        statistics entitled “Participation in Sports and Civic Engagement.”
-        February 2006. CIRCLE Fact Sheet`,
-  },
 ];
 
 function ListItem({ title, content }) {
@@ -115,15 +111,6 @@ const About = () => {
       <Header />
       <LowerHeader text='About' />
       <main className='container'>
-        {/* <section className='instructions-section mb-section '>
-          <h3>We Support Organizations</h3>
-          <p>
-            We offer services that support organizations with their quality
-            assurance, quality management and quality improvement needs to
-            successfully achieve their business and/or organizational
-            objectives.
-          </p>
-        </section> */}
         <section className='founder-section mb-section '>
           <div className='founder-section-header'>
             <div className='text-box'>
@@ -143,7 +130,7 @@ const About = () => {
               Ms. Kimberlee Moore has almost two decades of experience in global
               higher education quality assurance and accreditation. She has
               advised individuals and organizations on developing and sustaining
-              qualitative improvements in their educational/organizational and
+              qualitative improvements in their educational, organizational, and
               quality assurance practices. She most recently served as the Chief
               Accreditation Officer for the American Speech-Language-Hearing
               Association and has held leadership positions overseeing and/or
@@ -151,6 +138,20 @@ const About = () => {
               institutions in the US, Ecuador, Italy, New Zealand, and Turkey.
               Additionally, she has served in advisory leadership roles for
               non-profit and private sector organizations.
+            </p>
+            <p>
+              Ms. Moore is currently completing a Doctorate of Education from
+              the University of the Liverpool, Liverpool, UK. She holds a Master
+              of Public Policy degree from the University of Maryland, College
+              Park, MD, USA; a Postgraduate Certificate in Business
+              Administration from the Georgetown University School of Continuing
+              Studies, Washington, DC, USA; and a Bachelor of Arts degree from
+              the University of Georgia, Athens, GA, USA. In addition to Ms.
+              Moore, clients benefit from additional resources via an extensive
+              professional network that she has developed over her career
+              consisting of experienced professionals from a variety of
+              disciplines. These resources can be leveraged as part of a
+              collaborative team when required by client needs.
             </p>
           </div>
         </section>
@@ -198,14 +199,14 @@ const About = () => {
             {/* <h2>Improving Organizational Effectiveness </h2> */}
             <ul>
               <li>
-                <img src='./assets/icons/check.svg' alt='check icon' />
+                {/* <img src='./assets/icons/check.svg' alt='check icon' /> */}
                 <div>
                   <h3>Trustworthy</h3>
                   <p>Reliable, dependable, and honest</p>
                 </div>
               </li>
               <li>
-                <img src='./assets/icons/check.svg' alt='check icon' />
+                {/* <img src='./assets/icons/check.svg' alt='check icon' /> */}
                 <div>
                   <h3>Proven Track record</h3>
                   <p>
@@ -215,15 +216,26 @@ const About = () => {
                 </div>
               </li>
               <li>
-                <img src='./assets/icons/check.svg' alt='check icon' />
+                {/* <img src='./assets/icons/check.svg' alt='check icon' /> */}
                 <div>
                   <h3>Experiences</h3>
-                  <p>
-                    US and international quality assurance and accreditation at
-                    higher education institutions, quality agencies, and
-                    non-profit organizations. Organizational effectiveness
-                    initiatives at non-profit and for-profit organizations
-                  </p>
+                  <ul className='nested'>
+                    <li>
+                      <img src='./assets/icons/check.svg' alt='check icon' />
+                      <p>
+                        US and international quality assurance and accreditation
+                        at higher education institutions, quality agencies, and
+                        for profit and non-profit organizations
+                      </p>
+                    </li>
+                    <li>
+                      <img src='./assets/icons/check.svg' alt='check icon' />
+                      <p>
+                        Organizational effectiveness initiatives at non-profit
+                        and for-profit organizations
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </li>
             </ul>

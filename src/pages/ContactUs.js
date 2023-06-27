@@ -21,9 +21,10 @@ const ContactUs = () => {
           </p>
         </div>
       </main>
-      <div className='contact-us-footer'>
+      <Footer />
+      {/* <div className='contact-us-footer'>
         <Footer />
-      </div>
+      </div> */}
     </>
   );
 };
