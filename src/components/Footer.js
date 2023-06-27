@@ -70,7 +70,7 @@ function Footer() {
               <Link to='/contact-us'>Contact Us</Link>
             </li>
             <li>
-              <Link to='/'>FAQ</Link>
+              <Link to='/faq'>FAQ</Link>
             </li>
           </ul>
         </div>
