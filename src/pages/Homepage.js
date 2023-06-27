@@ -10,7 +10,7 @@ function Homepage() {
                 <div className='welcome-section container'>
                     <div className='Homepage-content'>
                         <h1><span className='Homepage-content-title'>Strategic Organizational Development Solutions</span></h1>
-                        <p className='Homepage-content-text'> <strong> <i className="tag-name">Moore Advanced Solutions</i></strong> provides of tailored consulting services to higher education institutions and for-profit and non-profit organizations.</p>
+                        <p className='Homepage-content-text'> <strong> <i className="tag-name">Moore Advanced Solutions</i></strong> provides tailored consulting services to higher education institutions and for-profit and non-profit organizations.</p>
                         <div className='target-box'>
                             <button type="button" className="btn btn-primary "><Link to='/contact-us'>Contact Us</Link></button>
                         </div>

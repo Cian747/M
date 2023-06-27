@@ -38,7 +38,7 @@ function Services() {
                                 <li>Organizational Leadership and Management Coaching</li>
                                 <li>Professional Development and Training</li>
                                 <li>Quality Assurance and Management System Development</li>
-                                <li>Initial or Re-Evaluation Self- Study Development</li>
+                                <li>Initial or Re-Evaluation Self-Study Development</li>
                                 <li>Site Visit Preparation</li>
                                 <li>Site visit Responses</li>
 
