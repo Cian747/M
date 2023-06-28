@@ -227,7 +227,8 @@ body {
 .why-us-section {
   display: flex;
   /* padding: 0 0 9.6rem 6rem; */
-  padding-left: 6rem;
+  /* padding-left: 6rem; */
+  padding: 0 6rem;
   align-items: center;
   justify-content: center;
 }
@@ -238,9 +239,11 @@ body {
 }
 
 .why-us-section .text-box > h3 {
-  color: #666;
+  /* color: #666; */
+  color: #1e3653;
   font-size: 1.6rem;
   font-weight: 500;
+  font-style: italic;
   letter-spacing: 0.75px;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
@@ -1148,6 +1151,10 @@ input:checked ~ .faq-content {
     flex-direction: column;
   }
 
+  .why-us-section .image-box img {
+    height: 40rem;
+    width: 50rem;
+  }
   .description-text,
   .contact-form {
     width: 100%;
@@ -1181,43 +1188,40 @@ input:checked ~ .faq-content {
     padding-bottom: 2rem;
   }
 
-  .welcome-section{
+  .welcome-section {
     display: flex;
     flex-direction: column-reverse;
   }
-  .Homepage-content{
+  .Homepage-content {
     font-size: medium;
-
   }
 
-  .steps{
+  .steps {
     flex-direction: column;
     align-items: center;
   }
-  
-  .about-us{
+
+  .about-us {
     flex-direction: column;
     padding: 2em;
   }
 
-  .services-offered{
-    flex-direction: column;
-  }
-   
-  .testimonial{
+  .services-offered {
     flex-direction: column;
   }
 
-  .service{
+  .testimonial {
     flex-direction: column;
   }
 
-  .service-image img{
+  .service {
+    flex-direction: column;
+  }
+
+  .service-image img {
     width: 350;
     height: 350;
   }
-
-
 }
 
 /*****************************/
@@ -1255,8 +1259,7 @@ input:checked ~ .faq-content {
   }
 
   .why-us-section .image-box {
-    max-height: 15rem;
-    overflow: hidden;
+    padding: 0 4rem;
   }
 
   .why-us-section .image-box img {
@@ -1299,37 +1302,35 @@ input:checked ~ .faq-content {
     height: 350px;
   }
 
-  .welcome-section{
+  .welcome-section {
     display: flex;
     flex-direction: column-reverse;
   }
-  .Homepage-content{
+  .Homepage-content {
     font-size: medium;
-
   }
 
-  .steps{
+  .steps {
     flex-direction: column;
     align-items: center;
   }
-  
-  .about-us{
+
+  .about-us {
     flex-direction: column;
     padding: 2em;
   }
 
-  .services-offered{
-    flex-direction: column;
-  }
-   
-  .testimonial{
+  .services-offered {
     flex-direction: column;
   }
 
-  .service{
+  .testimonial {
     flex-direction: column;
   }
 
+  .service {
+    flex-direction: column;
+  }
 }
 
 /*****************************/
@@ -1383,57 +1384,56 @@ input:checked ~ .faq-content {
     flex-direction: column-reverse;
   }
 
-  .Homepage-content{
+  .Homepage-content {
     padding: 2em;
     font-size: medium;
     margin-top: 6rem;
     width: auto;
-
   }
 
-  .Homepage-content-title{
+  .Homepage-content-title {
     font-size: 55px;
   }
 
-  .Homepage-image{
+  .Homepage-image {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .Homepage-image img{
+  .Homepage-image img {
     margin-top: 2rem;
     width: 400px;
     height: 475px;
   }
 
-  .steps{
+  .steps {
     /* flex-wrap: wrap; */
     align-items: center;
   }
 
-  .step h2{
+  .step h2 {
     font-size: larger;
   }
-  
-  .about-us{
+
+  .about-us {
     flex-direction: column;
     padding: 2em;
   }
 
-  .about-us-image img{
+  .about-us-image img {
     width: 350px;
     height: 250px;
   }
 
-  .services-offered{
+  .services-offered {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
 
-  .services-offered-list{
+  .services-offered-list {
     display: flex;
     flex-wrap: wrap;
   }
@@ -1442,17 +1442,15 @@ input:checked ~ .faq-content {
     flex-direction: column;
   }
 
-  .service{
+  .service {
     display: flex;
     flex-direction: column;
-   
+
     align-items: center;
   }
 
-  .service-image img{
+  .service-image img {
     width: 300px;
     height: 200px;
-
   }
 }
-
