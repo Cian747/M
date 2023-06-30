@@ -122,7 +122,7 @@ const About = () => {
             </div>
             <div className='img-box'>
               <img
-                src='./assets/images/default-user.jpg'
+                src='./assets/images/Kimberlee_Moore_1.jpg'
                 alt='moore advance solution founder'
               />
             </div>
@@ -148,12 +148,14 @@ const About = () => {
               Park, MD, USA; a Postgraduate Certificate in Business
               Administration from the Georgetown University School of Continuing
               Studies, Washington, DC, USA; and a Bachelor of Arts degree from
-              the University of Georgia, Athens, GA, USA. In addition to Ms.
-              Moore, clients benefit from additional resources via an extensive
-              professional network that she has developed over her career
-              consisting of experienced professionals from a variety of
-              disciplines. These resources can be leveraged as part of a
-              collaborative team when required by client needs.
+              the University of Georgia, Athens, GA, USA.
+            </p>
+            <p>
+              In addition to Ms. Moore, clients benefit from additional
+              resources via an extensive professional network that she has
+              developed over her career consisting of experienced professionals
+              from a variety of disciplines. These resources can be leveraged as
+              part of a collaborative team when required by client needs.
             </p>
           </div>
         </section>
@@ -197,7 +199,7 @@ const About = () => {
 
         <section className='why-us-section mb-section '>
           <div className='text-box'>
-            <h3>Why Us</h3>
+            <h3>Why Moore Advanced Solutions</h3>
             {/* <h2>Improving Organizational Effectiveness </h2> */}
             <ul>
               <li>
@@ -227,14 +229,14 @@ const About = () => {
                       <p>
                         US and international quality assurance and accreditation
                         at higher education institutions, quality agencies, and
-                        for profit and non-profit organizations
+                        for-profit and non-profit organizations
                       </p>
                     </li>
                     <li>
                       <img src='./assets/icons/check.svg' alt='check icon' />
                       <p>
-                        Organizational effectiveness initiatives at non-profit
-                        and for-profit organizations
+                        Organizational effectiveness initiatives at for-profit
+                        and non-profit organizations
                       </p>
                     </li>
                   </ul>
@@ -245,7 +247,7 @@ const About = () => {
 
           <div className='image-box'>
             <img
-              src='./assets/images/laptop.jpg'
+              src='./assets/images/idea-3.jpg'
               alt='woman working with a laptop'
             />
           </div>
