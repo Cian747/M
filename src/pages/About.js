@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
+// import Header from '../components/Header';
 import LowerHeader from '../components/LowerHeader';
 import Footer from '../components/Footer';
+import NewHeader from "../components/NewHeader";
+
 
 const ENGAGEMENTS = [
   {
@@ -108,7 +110,7 @@ function ListItem({ title, content }) {
 const About = () => {
   return (
     <>
-      <Header />
+      <NewHeader />
       <LowerHeader text='About' />
       <main className='container'>
         <section className='founder-section mb-section '>

@@ -6,7 +6,11 @@ function Header() {
       <div className='nav-logo'>
         <img src='./assets/logo/MAS (1).png' alt='logo-home' />
       </div>
-      <ul>
+      <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+      <ul className='menu'>
         <li>
           <Link to='/'>Home</Link>
         </li>

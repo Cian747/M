@@ -1,11 +1,12 @@
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from 'react-router-dom';
+import NewHeader from "../components/NewHeader";
 
 function Homepage() {
     return (
         <div>
-            <Header />
+            <NewHeader />
             <div className='Homepage-container'>
                 <div className='welcome-section container'>
                     <div className='Homepage-content'>
@@ -74,7 +75,7 @@ function Homepage() {
                         {/* <p>Moore Advanced Solutions: Tailored consulting for education, for-profit, and non-profit organizations to optimize effectiveness and drive sustainable success.</p> */}
                     </div>
                     <div className="services-offered-list">
-                        <div className="card main-service">
+                        <div className="card">
                             <div className="card__image">
                                 <img src="./assets/icons/graduation.png" alt="S" height={'80'} width={'80'} />
                             </div>
@@ -88,7 +89,7 @@ function Homepage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="card main-service">
                             <div className="card__image">
                                 <img src="./assets/icons/team.png" alt="S" height={'80'} width={'80'} />
                             </div>
