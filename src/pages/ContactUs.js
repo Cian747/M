@@ -1,11 +1,13 @@
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+// import Header from '../components/Header';
 // import LowerHeader from '../components/LowerHeader';
+import NewHeader from "../components/NewHeader";
+
 
 const ContactUs = () => {
   return (
     <>
-      <Header />
+      <NewHeader />
       {/* <LowerHeader text='Contacts'/> */}
       <main className='contact-us container'>
         <div className='content'>

@@ -1,13 +1,15 @@
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Footer from '../components/Footer';
 import LowerHeader from "../components/LowerHeader";
 // import { Link } from "react-router-dom";
+import NewHeader from "../components/NewHeader";
+
 
 
 function Services() {
     return(
         <div>
-            <Header />
+            <NewHeader />
             <LowerHeader text='SERVICES'/>
             {/* <section className="services-intro">
                 <div className="services-intro-text">
