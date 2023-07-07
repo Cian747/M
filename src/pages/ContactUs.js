@@ -1,8 +1,7 @@
 import Footer from '../components/Footer';
 // import Header from '../components/Header';
 // import LowerHeader from '../components/LowerHeader';
-import NewHeader from "../components/NewHeader";
-
+import NewHeader from '../components/NewHeader';
 
 const ContactUs = () => {
   return (
@@ -11,9 +10,9 @@ const ContactUs = () => {
       {/* <LowerHeader text='Contacts'/> */}
       <main className='contact-us container'>
         <div className='content'>
-          <h1>Have any questions for us?</h1>
+          <h1>Have any questions?</h1>
           <p>
-            please contact us at:{' '}
+            Please contact us at:{' '}
             <a
               class='footer-link'
               href='mailto:info@mooreadvancedsolutions.com'

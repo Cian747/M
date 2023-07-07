@@ -26,15 +26,15 @@ function Footer() {
         <div className='address-col'>
           <p className='footer-heading'>Contact</p>
           <address class='contacts'>
-            <p><strong className='footer-contact-name'>Moore Advanced Solutions</strong></p>
             <p>
-              3261 Old Washington Road,    
+              <strong className='footer-contact-name'>
+                Moore Advanced Solutions
+              </strong>
             </p>
-            <p>
-              Suite 2020,
-            </p>
-            <p>Waldorf, MD, USA</p>
-            <p className='address'>MD 20602-5432</p>
+            <p>3261 Old Washington Road,</p>
+            <p>Suite 2020,</p>
+            <p>Waldorf, MD 20602-5432</p>
+            <p className='address'>USA</p>
 
             <p>
               <div className='whatsapp-contact'>
