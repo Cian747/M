@@ -2,6 +2,7 @@
 // import Header from '../components/Header';
 import LowerHeader from '../components/LowerHeader';
 import NewHeader from "../components/NewHeader";
+import Footer from '../components/Footer';
 
 
 
@@ -100,6 +101,7 @@ function Faq(){
                     </div>
 
                 </div>
+                <Footer />
             </div>
         </>
     )

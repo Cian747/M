@@ -17,7 +17,7 @@ function Homepage() {
                         </div>
                     </div>
                     <div className='Homepage-image'>
-                        <img src="./assets/images/kevin-matos-Nl_FMFpXo2g-unsplash.jpg" alt="" width={'500'} height={'600'} />
+                        <img src="./assets/images/kevin-matos-Nl_FMFpXo2g-unsplash.jpg" alt=""/>
                     </div>
                 </div>
 
