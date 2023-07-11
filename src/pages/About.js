@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 // import Header from '../components/Header';
 import LowerHeader from '../components/LowerHeader';
 import Footer from '../components/Footer';
-import NewHeader from "../components/NewHeader";
-
+import NewHeader from '../components/NewHeader';
 
 const ENGAGEMENTS = [
   {
@@ -27,19 +26,10 @@ const ENGAGEMENTS = [
         Mexico City, Mexico`,
   },
   {
-    title: 'External Reviewer',
-    content: ` for the Health and Medicine Division
-        of the National Academies of Sciences, Engineering, and Medicine’s
-        publication- Exploring a Culture of Fairness, Respect, and Anti-Racism
-        in Health Professions Education: Educational Product of a Workshop
-        Series. May 2022`,
-  },
-
-  {
     title: 'Panelist',
     content: `, “The Role of Accreditation in Advancing
         Diversity, Equity, and Inclusion.” Association of Schools and Programs
-        of Public Health Annual Meeting, March 2022`,
+        of Public Health Annual Meeting, March 2022, virtual`,
   },
   {
     title: 'Presenter',
@@ -51,24 +41,11 @@ const ENGAGEMENTS = [
         Sciences, Engineering, and Medicine, February 2022, Virtual`,
   },
   {
-    title: 'Board of Directors',
-    content: `, Spooky Action Theater, Washington, DC, 2020-2022`,
-  },
-  {
-    title: 'Leadership Council Member',
-    content: `, Open Society Institute-Baltimore, Baltimore, MD, 2014-2022`,
-  },
-  {
     title: 'Keynote Presenter',
     content: `, “Moving toward a more socially
         conscious oversight of quality: social justice and quality assurance,”
         Commission on Sport Management Annual Accreditation Conference, February
         2021, Virtual`,
-  },
-  {
-    title: 'Appeal Board Member (Volunteer)',
-    content: `, Accreditation
-        Review Commission on Education for the Physician Assistant`,
   },
   {
     title: 'Panel Facilitator',
@@ -93,6 +70,22 @@ const ENGAGEMENTS = [
     content: `, Overview of Higher Education Quality
         Assurance and Accreditation, Morgan State University Graduate Seminar,
         October 2012, Baltimore, MD, USA`,
+  },
+  {
+    title: 'External Reviewer',
+    content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. May 2022`,
+  },
+  {
+    title: 'Board of Directors',
+    content: `, Spooky Action Theater, Washington, DC, 2020-2022`,
+  },
+  {
+    title: 'Leadership Council Member',
+    content: `, Open Society Institute-Baltimore, Baltimore, MD, 2014-2022`,
+  },
+  {
+    title: 'Accreditation Appeal Board Member',
+    content: `, Accreditation Review Commission on Education for the Physician Assistant, 2021`,
   },
 ];
 
@@ -199,7 +192,9 @@ const About = () => {
 
         <section className='why-us-section mb-section '>
           <div className='text-box'>
-            <h3>Why Moore Advanced Solutions</h3>
+            <strong>
+              <i className='tag-name'>Why Moore Advanced Solutions</i>
+            </strong>
             {/* <h2>Improving Organizational Effectiveness </h2> */}
             <ul>
               <li>
