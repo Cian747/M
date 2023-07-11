@@ -34,7 +34,6 @@ function Services() {
                             <ul>
                                 <li>Academic Program Development and Assessment</li>
                                 <li>Annual Reports</li>
-                                <li>Institutional and Programmatic Readiness Analysis against Selected Standards</li>
                                 <li>Institutional Policy Development</li>
                                 <li>Ongoing Accreditation Compliance Monitoring</li>
                                 <li>Organizational Leadership and Management Coaching</li>
@@ -42,7 +41,7 @@ function Services() {
                                 <li>Quality Assurance and Management System Development</li>
                                 <li>Initial or Re-Evaluation Self-Study Development</li>
                                 <li>Site Visit Preparation</li>
-                                <li>Site visit Responses</li>
+                                <li>Site Visit Responses</li>
 
                             </ul>
                             {/* <div className='cta-box'>
@@ -61,12 +60,12 @@ function Services() {
                             <h2>ORGANIZATIONAL EFFECTIVENESS</h2>
                         </div>
                         <p>Organizational effectiveness refers to how effectively an organization achieves its desired goals. As organizations experience growth and expansion, unique
-                            challenges and complexities may occur. <i>Moore Advanced Solutions</i> can provide support to manage such challenge by assisting your organizations with the
+                            challenges and complexities may occur. <i>Moore Advanced Solutions</i> can provide support to manage such challenges by assisting your organization with the
                             following:</p>
                             <br></br>
                             <ul>
                                 <li>Capacity Building</li>
-                                <li>Goal setting</li>
+                                <li>Goal Setting</li>
                                 <li>Organizational Leadership and Management Coaching</li>
                                 <li>Professional Development and Training</li>
                                 <li>Quality Management System Development and Implementation</li>

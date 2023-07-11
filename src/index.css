@@ -551,8 +551,9 @@ body {
   color: #fff;
   height: 60px;
   padding: 1em;
-  font-weight: 400;
-  font-size: 22px;
+
+  font-weight:400;
+  font-size:18px;
   width: 100%;
 }
 
@@ -652,7 +653,7 @@ body {
 .Homepage-content-title {
   /* width: 600px;
   height: 220px; */
-  font-family: 'EB Garamond';
+  /* font-family: 'EB Garamond'; */
   font-style: normal;
   font-weight: 600;
   font-size: 65px;
@@ -675,6 +676,11 @@ body {
   font-size: 24px;
 
   color: #162320;
+}
+
+.Homepage-image img{
+  height: 600px;
+  width: 500px;
 }
 
 button {
@@ -720,7 +726,7 @@ button {
 .steps {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap:; */
   align-items: flex-start;
   justify-content: center;
   gap: 20px;
@@ -1236,7 +1242,7 @@ input:checked ~ .faq-content {
   }
 
   .container {
-    width: 100%;
+    min-width: 100%;
   }
 
   .contact-wrapper {
@@ -1433,6 +1439,11 @@ input:checked ~ .faq-content {
     display: flex;
     float: right;
   }
+
+  .container {
+    min-width: 100%;
+  }
+
   .menu {
     position: absolute;
     top: 0;
@@ -1515,13 +1526,14 @@ input:checked ~ .faq-content {
   .welcome-section {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
   }
 
   .Homepage-content {
     padding: 2em;
     font-size: medium;
     margin-top: 6rem;
-    width: auto;
+    width: 100%;
   }
 
   .Homepage-content-title {
@@ -1541,7 +1553,7 @@ input:checked ~ .faq-content {
   }
 
   .steps {
-    /* flex-wrap: wrap; */
+    flex-direction: column;
     align-items: center;
   }
 
