@@ -1155,6 +1155,8 @@ input:checked ~ .faq-content {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 6.4rem;
+  justify-content: space-between;
+  padding: 30px;
 }
 
 .footer-heading {
