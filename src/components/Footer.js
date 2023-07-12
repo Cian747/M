@@ -25,7 +25,7 @@ function Footer() {
         </div> */}
         <div className='address-col'>
           <p className='footer-heading'>Contact</p>
-          <address class='contacts'>
+          <address className='contacts'>
             <p>
               <strong className='footer-contact-name'>
                 Moore Advanced Solutions
@@ -43,13 +43,13 @@ function Footer() {
             <p>
               <div className='whatsapp-contact'>
                 {/* <img src='./assets/icons/whatsapp (1).png' alt='whatsapp' className='whatsapp' width={'30'} height={'30'}/> */}
-                <a class='footer-link' href='tel:+1 301-848-9600'>
+                <a className='footer-link' href='tel:+1 301-848-9600'>
                   +1 301-848-9600
                 </a>
               </div>
               <br />
               <a
-                class='footer-link'
+                className='footer-link'
                 href='mailto:info@mooreadvancedsolutions.com'
               >
                 info@mooreadvancedsolutions.com

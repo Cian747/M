@@ -22,6 +22,7 @@ function NewHeader() {
             </div>
         </>
     );
+
 }
 
 export default NewHeader;

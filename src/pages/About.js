@@ -155,10 +155,15 @@ const About = () => {
         <section className='prof-engagements-section mb-section'>
           <h4>Professional Engagements and Service</h4>
           <ul>
-            {ENGAGEMENTS.map((engagement) => {
+            {ENGAGEMENTS.map((engagement, i) => {
               let { logoName, title, content } = engagement;
               return (
-                <ListItem logoName={logoName} title={title} content={content} />
+                <ListItem
+                  logoName={logoName}
+                  title={title}
+                  content={content}
+                  key={i}
+                />
               );
             })}
           </ul>

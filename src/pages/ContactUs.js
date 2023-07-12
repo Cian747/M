@@ -14,7 +14,7 @@ const ContactUs = () => {
           <p>
             Please contact us at:{' '}
             <a
-              class='footer-link'
+              className='footer-link'
               href='mailto:info@mooreadvancedsolutions.com'
             >
               info@mooreadvancedsolutions.com
