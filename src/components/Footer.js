@@ -79,7 +79,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className='documentation-col'>
+        {/* <div className='documentation-col'>
           <p className='footer-heading'>Documentation</p>
           <ul>
             <li>
@@ -90,7 +90,7 @@ function Footer() {
             </li>
           </ul>
           <p className='copyright'>&copy; Moore Advanced Solutions 2023</p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
