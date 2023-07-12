@@ -31,8 +31,12 @@ function Footer() {
                 Moore Advanced Solutions
               </strong>
             </p>
+
             <p>3261 Old Washington Road,</p>
-            <p>Suite 2020,</p>
+            <p>
+              Suite 2020,
+            </p>
+
             <p>Waldorf, MD 20602-5432</p>
             <p className='address'>USA</p>
 
@@ -75,7 +79,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className='documentation-col'>
+        {/* <div className='documentation-col'>
           <p className='footer-heading'>Documentation</p>
           <ul>
             <li>
@@ -86,7 +90,7 @@ function Footer() {
             </li>
           </ul>
           <p className='copyright'>&copy; Moore Advanced Solutions 2023</p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

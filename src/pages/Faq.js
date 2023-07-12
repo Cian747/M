@@ -1,31 +1,92 @@
 // import { useState } from 'react'
 // import Header from '../components/Header';
 import LowerHeader from '../components/LowerHeader';
-import NewHeader from '../components/NewHeader';
+import NewHeader from "../components/NewHeader";
+import Footer from '../components/Footer';
 
-function Faq() {
-  return (
-    <>
-      <NewHeader />
-      <LowerHeader text='Frequently Asked Questions' />
-      <div className='accordion-container'>
-        <div className='Faq'>
-          <div className='faq-box'>
-            <div className='faq'>
-              <input type='checkbox' className='faq-check' id='faq1' />
 
-              <label className='faq-label' htmlFor='faq1'>
-                What is accreditation in higher education?
-              </label>
 
-              <div className='faq-content'>
-                Accreditation is a process whereby an external body, either
-                governmental, quasigovernmental, or private body evaluates the
-                quality of higher education institutions as a whole or specific
-                units within institutions (programs or courses) based on certain
-                predetermined standards.
-              </div>
-            </div>
+function Faq(){
+    return(
+        <>
+            <NewHeader />
+            <LowerHeader text='Frequently Asked Questions'/>
+            <div className="accordion-container">
+                <div className="Faq">
+                    <div className="faq-box">
+
+                        <div className="faq">
+
+                        <input type="checkbox" className='faq-check' id="faq1"/>
+
+                        <label className="faq-label" htmlFor="faq1">What is accreditation in higher education?</label>
+
+                        <div className="faq-content">
+
+                        Accreditation is a process whereby an external body, either governmental, quasigovernmental, or
+                        private body evaluates the quality of higher education institutions as a whole or specific units within
+                        institutions (programs or courses) based on certain predetermined standards.
+
+                        </div>
+
+                        </div>
+
+                        <div className="faq">
+
+                            <input type="checkbox" className='faq-check' id="faq2"/>
+
+                            <label className="faq-label" htmlFor="faq2">What is the difference between quality assurance and accreditation?</label>
+
+                            <div className="faq-content">
+
+                            Quality assurance(QA) typically used to describe all forms of external monitoring and review. A variety of
+                            methods are used by organizations to assess quality when applying them to different units of analysis
+                            (institutions, programs, or courses) in higher education. Accreditation is method used by QA agencies to
+                            assess quality.
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="faq">
+
+                            <input type="checkbox" className='faq-check' id="faq3"/>
+
+                            <label className="faq-label" htmlFor="faq3">What is organizational effectiveness?</label>
+
+                            <div className="faq-content">
+
+                            Organizational effectiveness refers to how effectively an organization achieves its desired goals
+
+                            </div>
+
+                        </div>
+
+                        <div className="faq">
+
+                            <input type="checkbox" className='faq-check' id="faq4"/>
+
+                            <label className="faq-label" htmlFor="faq4">What is a quality management system?</label>
+
+                            <div className="faq-content">
+                            A quality management system is a systematic evaluation process that includes assessment of all individuals involved in accreditation or
+                            business processes. This periodic review evaluates the extent to which an organization is achieving the
+                            goals and objectives it has established and utilizes the results as a basis for making appropriate
+                            improvements. Assessments may include evaluations of the administrative polices and procedures; day-to-day program operations; and the products and services provided.
+
+                            </div>
+
+                        </div>
+
+                        <div className="faq">
+
+                            <input type="checkbox" className='faq-check' id="faq5"/>
+
+                            <label className="faq-label" htmlFor="faq5">What is capacity building?</label>
+
+                            <div className="faq-content">
+
 
             <div className='faq'>
               <input type='checkbox' className='faq-check' id='faq2' />
@@ -76,6 +137,8 @@ function Faq() {
                 procedures; day-to-day program operations; and the products and
                 services provided.
               </div>
+                
+
             </div>
 
             <div className='faq'>
@@ -99,6 +162,7 @@ function Faq() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
