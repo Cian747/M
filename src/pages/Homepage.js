@@ -182,7 +182,7 @@ function Homepage() {
                     </div>
 
                     <div className='link-box'>
-                        <Link to='/contact-us'>Contact us</Link>
+                        <Link to='/contact-us'>Contact Us</Link>
                     </div>
                 </section>
                 <Footer />

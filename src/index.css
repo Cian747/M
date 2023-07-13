@@ -670,7 +670,7 @@ body {
   /* width: 413px;
   height: 72px; */
 
-  font-family: 'Inter';
+  /* font-family: 'Inter'; */
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -901,7 +901,7 @@ i {
   width: 413px;
   height: 128px;
 
-  font-family: 'EB Garamond';
+  /* font-family: 'EB Garamond'; */
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
@@ -1015,7 +1015,7 @@ hr {
 }
 
 .service-title h2 {
-  font-size: 40px;
+  font-size: 4rem;
   padding: auto;
   margin-bottom: 1em;
 }
@@ -1046,7 +1046,7 @@ hr {
 
   padding: 1.2rem;
 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 
   max-width: 130rem;
 
@@ -1539,7 +1539,8 @@ input:checked ~ .faq-content {
   }
 
   .Homepage-content-title {
-    font-size: 55px;
+    font-size: 4.5rem;
+    /* padding: 2em; */
   }
 
   .Homepage-image {
@@ -1580,9 +1581,17 @@ input:checked ~ .faq-content {
     width: 100%;
   }
 
+  .services-offered-content {
+    width: 100%;
+  }
+
   .services-offered-list {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .service-content{
+    padding: 20px;
   }
 
   .testimonial {
@@ -1592,7 +1601,7 @@ input:checked ~ .faq-content {
   .service {
     display: flex;
     flex-direction: column;
-
+    padding: auto;
     align-items: center;
   }
 

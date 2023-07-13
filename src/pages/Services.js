@@ -33,6 +33,7 @@ function Services() {
                         <br></br>
                             <ul>
                                 <li>Academic Program Development and Assessment</li>
+                                <li>Accreditation Readiness Analysis</li>
                                 <li>Annual Reports</li>
                                 <li>Institutional Policy Development</li>
                                 <li>Ongoing Accreditation Compliance Monitoring</li>

@@ -29,7 +29,7 @@ const ENGAGEMENTS = [
     title: 'Panelist',
     content: `, “The Role of Accreditation in Advancing
         Diversity, Equity, and Inclusion.” Association of Schools and Programs
-        of Public Health Annual Meeting, March 2022, virtual`,
+        of Public Health Annual Meeting, March 2022, Virtual`,
   },
   {
     title: 'Presenter',
@@ -72,7 +72,7 @@ const ENGAGEMENTS = [
         October 2012, Baltimore, MD, USA`,
   },
   {
-    title: 'External Reviewer',
+    title: 'External Reviewer,',
     content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. May 2022`,
   },
   {
@@ -212,7 +212,7 @@ const About = () => {
               <li>
                 {/* <img src='./assets/icons/check.svg' alt='check icon' /> */}
                 <div>
-                  <h3>Proven Track record</h3>
+                  <h3>Proven Track Record</h3>
                   <p>
                     Proven record with various types of accreditations and
                     quality initiatives
@@ -262,7 +262,7 @@ const About = () => {
           </div>
 
           <div className='link-box'>
-            <Link to='/contact-us'>Contact us</Link>
+            <Link to='/contact-us'>Contact Us</Link>
           </div>
         </section>
       </main>

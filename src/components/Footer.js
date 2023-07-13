@@ -24,7 +24,7 @@ function Footer() {
           <p>&copy; Moore Advanced Solutions 2023</p>
         </div> */}
         <div className='address-col'>
-          <p className='footer-heading'>Contact</p>
+          <p className='footer-heading'>Contact Information</p>
           <address className='contacts'>
             <p>
               <strong className='footer-contact-name'>
