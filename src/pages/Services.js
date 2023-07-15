@@ -29,7 +29,7 @@ function Services() {
                         <div className="service-title">
                             <h2>HIGHER EDUCATION ACCREDITATION</h2>
                         </div>
-                        <p>Higher education institutions have a variety of needs accreditation needs. <i>Moore Advanced Solutions</i> can assist your institution with the following:</p>
+                        <p>Higher education institutions have a variety of accreditation needs. <i>Moore Advanced Solutions</i> can assist your institution with the following:</p>
                         <br></br>
                             <ul>
                                 <li>Academic Program Development and Assessment</li>
