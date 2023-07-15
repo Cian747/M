@@ -19,7 +19,7 @@ function Faq() {
 
                             <input type="checkbox" className='faq-check' id="faq1" />
 
-                            <label className="faq-label" htmlFor="faq1">What is in higher education accreditation?</label>
+                            <label className="faq-label" htmlFor="faq1">What is higher education accreditation?</label>
 
                             <div className="faq-content">
 
