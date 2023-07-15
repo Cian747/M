@@ -19,7 +19,7 @@ function Faq() {
 
                             <input type="checkbox" className='faq-check' id="faq1" />
 
-                            <label className="faq-label" htmlFor="faq1">What is accreditation in higher education?</label>
+                            <label className="faq-label" htmlFor="faq1">What is in higher education accreditation?</label>
 
                             <div className="faq-content">
 
@@ -39,7 +39,7 @@ function Faq() {
 
                             <div className="faq-content">
 
-                                Quality assurance(QA) typically used to describe all forms of external monitoring and review. A variety of
+                                Quality Assurance (QA) typically used to describe all forms of external monitoring and review. A variety of
                                 methods are used by organizations to assess quality when applying them to different units of analysis
                                 (institutions, programs, or courses) in higher education. Accreditation is method used by QA agencies to
                                 assess quality.
