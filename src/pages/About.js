@@ -214,7 +214,7 @@ const About = () => {
                 <div>
                   <h3>Proven Track Record</h3>
                   <p>
-                    Proven record with various types of accreditations and
+                    Proven record with various types of accreditation and
                     quality initiatives
                   </p>
                 </div>

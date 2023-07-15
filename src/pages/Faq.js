@@ -57,7 +57,7 @@ function Faq() {
 
                             <div className="faq-content">
 
-                                Organizational effectiveness refers to how effectively an organization achieves its desired goals
+                                Organizational effectiveness refers to how effectively an organization achieves its desired goals.
 
                             </div>
 
