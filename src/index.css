@@ -780,6 +780,11 @@ button {
   height: 100%;
 }
 
+.about-us-title{
+  margin-bottom: 2em;
+  font-size: 2em;
+}
+
 .about-us-content {
   gap: 20px;
 }

@@ -61,7 +61,7 @@ function Homepage() {
                         <img src="./assets/images/christina-wocintechchat-com-c6wbSBaYxkY-unsplash.jpg" alt="" width={'700'} height={'500'} />
                     </div>
                     <div className="about-us-content">
-                        <h3>WHAT WE DO</h3>
+                        <h3 className='about-us-title'>WHAT WE DO</h3>
                         <p><strong><i>Moore Advanced Solutions</i></strong> provides consulting services to higher education institutions and for-profit and non-profit organizations to create and improve
                             their organizational effectiveness. Primary areas of focus include: academic accreditation and regulatory affairs; board governance and development; organizational
                             capacity building; and strategic planning, development, implementation, and assessment.</p>
