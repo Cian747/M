@@ -52,6 +52,10 @@ body {
   /* position: absolute; */
 }
 
+.about-name:hover{
+  text-decoration: underline;
+}
+
 /* .header img {
   height: 43rem;
   display: block;

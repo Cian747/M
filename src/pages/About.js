@@ -110,7 +110,9 @@ const About = () => {
           <div className='founder-section-header'>
             <div className='text-box'>
               {/* <h4>Principal Consultant</h4> */}
-              <h3>Kimberlee Moore</h3>
+              <a href='mailto:kmoore@mooreadvancedsolutions.com'>
+              <h3 className='about-name'>Kimberlee Moore</h3>
+              </a>
               <p>Principal Consultant</p>
             </div>
             <div className='img-box'>
