@@ -43,9 +43,9 @@ function Footer() {
             <p>
               <div className='whatsapp-contact'>
                 {/* <img src='./assets/icons/whatsapp (1).png' alt='whatsapp' className='whatsapp' width={'30'} height={'30'}/> */}
-                {/* <a className='footer-link' href='tel:+1 301-848-9600'>
-                  +1 301-848-9600
-                </a> */}
+                <a className='footer-link' href='tel:+1 301-848-9600'>
+                  +1 202-455-8464
+                </a>
               </div>
               <br />
               <a
