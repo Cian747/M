@@ -1,38 +1,38 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 // import Header from '../components/Header';
-import LowerHeader from '../components/LowerHeader';
-import Footer from '../components/Footer';
-import NewHeader from '../components/NewHeader';
+import LowerHeader from "../components/LowerHeader";
+import Footer from "../components/Footer";
+import NewHeader from "../components/NewHeader";
 
 const ENGAGEMENTS = [
   {
-    title: 'Co-Presenter',
+    title: "Co-Presenter",
     content: `, “Evaluation of Challenges for the
         Accreditation and Oversight of Third-Party Ed-Tech Providers.”
         International Network for Quality Assurance Agencies in Higher Education
         Annual Convention, June, 2023 Astana, Kazakhstan`,
   },
   {
-    title: 'Contributing Expert Consultant',
+    title: "Contributing Expert Consultant",
     content: `, “Project A457: Measures and mechanisms for addressing racism and
           racial discrimination in United Nations system organization” Joint
           Inspection Unit of the United Nations System, March, 2023`,
   },
   {
-    title: 'Co-Presenter',
+    title: "Co-Presenter",
     content: `, “An Integrated Approach to People
         Development across the QA Organization.” International Network for
         Quality Assurance Agencies in Higher Education Annual Forum, June, 2022
         Mexico City, Mexico`,
   },
   {
-    title: 'Panelist',
+    title: "Panelist",
     content: `, “The Role of Accreditation in Advancing
         Diversity, Equity, and Inclusion.” Association of Schools and Programs
         of Public Health Annual Meeting, March 2022, Virtual`,
   },
   {
-    title: 'Presenter',
+    title: "Presenter",
     content: `, “Exploring a Culture of Fairness, Respect,
         and Anti-racism Through Diversity, Equity, and Inclusion in Health
         Professions Education: A workshop on leveraging accreditation to improve
@@ -41,50 +41,50 @@ const ENGAGEMENTS = [
         Sciences, Engineering, and Medicine, February 2022, Virtual`,
   },
   {
-    title: 'Keynote Presenter',
+    title: "Keynote Presenter",
     content: `, “Moving toward a more socially
         conscious oversight of quality: social justice and quality assurance,”
         Commission on Sport Management Annual Accreditation Conference, February
         2021, Virtual`,
   },
   {
-    title: 'Panel Facilitator',
+    title: "Panel Facilitator",
     content: `, “Data, Accreditation & Equity”,
         Council for Higher Education Accreditation Conference, January 2020,
         Washington, DC, USA`,
   },
   {
-    title: 'Co-Presenter',
+    title: "Co-Presenter",
     content: `, Assessing and Ensuring Board
         Accountability, Association for Specialized and Professional Accreditors
         Conference, September 2019, Arlington, VA, USA`,
   },
   {
-    title: 'Guest Speaker',
+    title: "Guest Speaker",
     content: `, “Public/Private Partnership in
         International Education”, American University Graduate Seminar, November
         2014, Washington, DC, USA`,
   },
   {
-    title: 'Panelist',
+    title: "Panelist",
     content: `, Overview of Higher Education Quality
         Assurance and Accreditation, Morgan State University Graduate Seminar,
         October 2012, Baltimore, MD, USA`,
   },
   {
-    title: 'External Reviewer,',
-    content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. May 2022`,
+    title: "External Reviewer,",
+    content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. Virtual May 2022`,
   },
   {
-    title: 'Board of Directors',
-    content: `, Spooky Action Theater, Washington, DC, 2020-2022`,
+    title: "Board of Directors",
+    content: `University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
   },
   {
-    title: 'Leadership Council Member',
+    title: "Leadership Council Member",
     content: `, Open Society Institute-Baltimore, Baltimore, MD, 2014-2022`,
   },
   {
-    title: 'Accreditation Appeal Board Member',
+    title: "Accreditation Appeal Board Member",
     content: `, Accreditation Review Commission on Education for the Physician Assistant, 2021`,
   },
 ];
@@ -104,27 +104,27 @@ const About = () => {
   return (
     <>
       <NewHeader />
-      <LowerHeader text='About' />
-      <main className='container'>
-        <section className='founder-section mb-section '>
-          <div className='founder-section-header'>
-            <div className='text-box'>
+      <LowerHeader text="About" />
+      <main className="container">
+        <section className="founder-section mb-section ">
+          <div className="founder-section-header">
+            <div className="text-box">
               {/* <h4>Principal Consultant</h4> */}
-              <a href='mailto:kmoore@mooreadvancedsolutions.com'>
-              <h3 className='about-name'>Kimberlee Moore</h3>
+              <a href="mailto:kmoore@mooreadvancedsolutions.com">
+                <h3 className="about-name">Kimberlee Moore, EdD</h3>
               </a>
               <p>Principal Consultant</p>
             </div>
-            <div className='img-box'>
+            <div className="img-box">
               <img
-                src='./assets/images/Kimberlee_Moore_1.jpg'
-                alt='moore advance solution founder'
+                src="./assets/images/Kimberlee_Moore_1.jpg"
+                alt="moore advance solution founder"
               />
             </div>
           </div>
-          <div className='founder-section-content'>
+          <div className="founder-section-content">
             <p>
-              Ms. Kimberlee Moore has almost two decades of experience in global
+              Kimberlee Moore has almost two decades of experience in global
               higher education quality assurance and accreditation. She has
               advised individuals and organizations on developing and sustaining
               qualitative improvements in their educational, organizational, and
@@ -137,13 +137,13 @@ const About = () => {
               non-profit and private sector organizations.
             </p>
             <p>
-              Ms. Moore is currently completing a Doctorate of Education from
-              the University of the Liverpool, Liverpool, UK. She holds a Master
-              of Public Policy degree from the University of Maryland, College
-              Park, MD, USA; a Postgraduate Certificate in Business
-              Administration from the Georgetown University School of Continuing
-              Studies, Washington, DC, USA; and a Bachelor of Arts degree from
-              the University of Georgia, Athens, GA, USA.
+              Kimberlee holds a Doctor of Education degree from the University
+              of the Liverpool, Liverpool, UK; a Master of Public Policy degree
+              from the University of Maryland, College Park, MD, USA; a
+              Postgraduate Certificate in Business Administration from the
+              Georgetown University School of Continuing Studies, Washington,
+              DC, USA; and a Bachelor of Arts degree from the University of
+              Georgia, Athens, GA, USA.
             </p>
             <p>
               In addition to Ms. Moore, clients benefit from additional
@@ -154,7 +154,7 @@ const About = () => {
             </p>
           </div>
         </section>
-        <section className='prof-engagements-section mb-section'>
+        <section className="prof-engagements-section mb-section">
           <h4>Professional Engagements and Service</h4>
           <ul>
             {ENGAGEMENTS.map((engagement, i) => {
@@ -197,10 +197,10 @@ const About = () => {
           </div>
         </section> */}
 
-        <section className='why-us-section mb-section '>
-          <div className='text-box'>
+        <section className="why-us-section mb-section ">
+          <div className="text-box">
             <strong>
-              <i className='tag-name'>Why Moore Advanced Solutions</i>
+              <i className="tag-name">Why Moore Advanced Solutions</i>
             </strong>
             {/* <h2>Improving Organizational Effectiveness </h2> */}
             <ul>
@@ -225,9 +225,9 @@ const About = () => {
                 {/* <img src='./assets/icons/check.svg' alt='check icon' /> */}
                 <div>
                   <h3>Experiences</h3>
-                  <ul className='nested'>
+                  <ul className="nested">
                     <li>
-                      <img src='./assets/icons/check.svg' alt='check icon' />
+                      <img src="./assets/icons/check.svg" alt="check icon" />
                       <p>
                         US and international quality assurance and accreditation
                         at higher education institutions, quality agencies, and
@@ -235,7 +235,7 @@ const About = () => {
                       </p>
                     </li>
                     <li>
-                      <img src='./assets/icons/check.svg' alt='check icon' />
+                      <img src="./assets/icons/check.svg" alt="check icon" />
                       <p>
                         Organizational effectiveness initiatives at for-profit
                         and non-profit organizations
@@ -247,24 +247,24 @@ const About = () => {
             </ul>
           </div>
 
-          <div className='image-box'>
+          <div className="image-box">
             <img
-              src='./assets/images/idea-3.jpg'
-              alt='woman working with a laptop'
+              src="./assets/images/idea-3.jpg"
+              alt="woman working with a laptop"
             />
           </div>
         </section>
 
-        <section className='cta-section'>
-          <div className='text-box'>
+        <section className="cta-section">
+          <div className="text-box">
             <h2>Let's work together</h2>
             {/* <p>
               Towards better organizational quality assurance and management.
             </p> */}
           </div>
 
-          <div className='link-box'>
-            <Link to='/contact-us'>Contact Us</Link>
+          <div className="link-box">
+            <Link to="/contact-us">Contact Us</Link>
           </div>
         </section>
       </main>
