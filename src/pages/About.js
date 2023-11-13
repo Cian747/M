@@ -76,8 +76,9 @@ const ENGAGEMENTS = [
     content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. Virtual May 2022`,
   },
   {
-    title: "Board of Directors",
-    content: `University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
+    title: "Board of Directors,",
+    content: ` Spooky Action Theater, Washington, DC, 2020-2022;
+     University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
   },
   {
     title: "Leadership Council Member",
@@ -146,7 +147,7 @@ const About = () => {
               Georgia, Athens, GA, USA.
             </p>
             <p>
-              In addition to Ms. Moore, clients benefit from additional
+              In addition to Kimberlee, clients benefit from additional
               resources via an extensive professional network that she has
               developed over her career consisting of experienced professionals
               from a variety of disciplines. These resources can be leveraged as
