@@ -197,6 +197,11 @@ body {
   color: #000;
 }
 
+.prof-engagements-section .borderTop {
+  border-top: 2px solid black;
+  padding-top: 0.8rem
+}
+
 /* .clientel-section {
   background-color: #ccddf2c7;
   padding: 2.3rem 4.6rem 4.6rem 4.6rem;
