@@ -1,38 +1,43 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 // import Header from '../components/Header';
-import LowerHeader from "../components/LowerHeader";
-import Footer from "../components/Footer";
-import NewHeader from "../components/NewHeader";
+import LowerHeader from '../components/LowerHeader';
+import Footer from '../components/Footer';
+import NewHeader from '../components/NewHeader';
 
 const ENGAGEMENTS = [
   {
-    title: "Co-Presenter",
+    title: 'Co-Presenter',
+    borderTop: false,
     content: `, “Evaluation of Challenges for the
         Accreditation and Oversight of Third-Party Ed-Tech Providers.”
         International Network for Quality Assurance Agencies in Higher Education
         Annual Convention, June, 2023 Astana, Kazakhstan`,
   },
   {
-    title: "Contributing Expert Consultant",
+    title: 'Contributing Expert Consultant',
+    borderTop: false,
     content: `, “Project A457: Measures and mechanisms for addressing racism and
           racial discrimination in United Nations system organization” Joint
           Inspection Unit of the United Nations System, March, 2023`,
   },
   {
-    title: "Co-Presenter",
+    title: 'Co-Presenter',
+    borderTop: false,
     content: `, “An Integrated Approach to People
         Development across the QA Organization.” International Network for
         Quality Assurance Agencies in Higher Education Annual Forum, June, 2022
         Mexico City, Mexico`,
   },
   {
-    title: "Panelist",
+    title: 'Panelist',
+    borderTop: false,
     content: `, “The Role of Accreditation in Advancing
         Diversity, Equity, and Inclusion.” Association of Schools and Programs
         of Public Health Annual Meeting, March 2022, Virtual`,
   },
   {
-    title: "Presenter",
+    title: 'Presenter',
+    borderTop: false,
     content: `, “Exploring a Culture of Fairness, Respect,
         and Anti-racism Through Diversity, Equity, and Inclusion in Health
         Professions Education: A workshop on leveraging accreditation to improve
@@ -41,58 +46,66 @@ const ENGAGEMENTS = [
         Sciences, Engineering, and Medicine, February 2022, Virtual`,
   },
   {
-    title: "Keynote Presenter",
+    title: 'Keynote Presenter',
+    borderTop: false,
     content: `, “Moving toward a more socially
         conscious oversight of quality: social justice and quality assurance,”
         Commission on Sport Management Annual Accreditation Conference, February
         2021, Virtual`,
   },
   {
-    title: "Panel Facilitator",
+    title: 'Panel Facilitator',
+    borderTop: false,
     content: `, “Data, Accreditation & Equity”,
         Council for Higher Education Accreditation Conference, January 2020,
         Washington, DC, USA`,
   },
   {
-    title: "Co-Presenter",
+    title: 'Co-Presenter',
+    borderTop: false,
     content: `, Assessing and Ensuring Board
         Accountability, Association for Specialized and Professional Accreditors
         Conference, September 2019, Arlington, VA, USA`,
   },
   {
-    title: "Guest Speaker",
+    title: 'Guest Speaker',
+    borderTop: false,
     content: `, “Public/Private Partnership in
         International Education”, American University Graduate Seminar, November
         2014, Washington, DC, USA`,
   },
   {
-    title: "Panelist",
+    title: 'Panelist',
+    borderTop: false,
     content: `, Overview of Higher Education Quality
         Assurance and Accreditation, Morgan State University Graduate Seminar,
         October 2012, Baltimore, MD, USA`,
   },
   {
-    title: "External Reviewer,",
+    title: 'External Reviewer,',
+    borderTop: false,
     content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. Virtual May 2022`,
   },
   {
-    title: "Board of Directors,",
-    content: ` Spooky Action Theater, Washington, DC, 2020-2022;
-     University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
+    title: 'Board of Directors',
+    borderTop: true,
+    content: ` Spooky Action Theater, Washington, DC, 2020-2022; University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
   },
   {
-    title: "Leadership Council Member",
+    title: 'Leadership Council Member',
+    borderTop: false,
     content: `, Open Society Institute-Baltimore, Baltimore, MD, 2014-2022`,
   },
   {
-    title: "Accreditation Appeal Board Member",
+    title: 'Accreditation Appeal Board Member',
+    borderTop: false,
     content: `, Accreditation Review Commission on Education for the Physician Assistant, 2021`,
   },
 ];
 
-function ListItem({ title, content }) {
+function ListItem({ title, content, borderTop }) {
   return (
-    <li>
+    <li className={borderTop ? 'borderTop' : ''}>
       <p>
         <strong>{title}</strong>
         {content}
@@ -105,25 +118,25 @@ const About = () => {
   return (
     <>
       <NewHeader />
-      <LowerHeader text="About" />
-      <main className="container">
-        <section className="founder-section mb-section ">
-          <div className="founder-section-header">
-            <div className="text-box">
+      <LowerHeader text='About' />
+      <main className='container'>
+        <section className='founder-section mb-section '>
+          <div className='founder-section-header'>
+            <div className='text-box'>
               {/* <h4>Principal Consultant</h4> */}
-              <a href="mailto:kmoore@mooreadvancedsolutions.com">
-                <h3 className="about-name">Kimberlee Moore, EdD</h3>
+              <a href='mailto:kmoore@mooreadvancedsolutions.com'>
+                <h3 className='about-name'>Kimberlee Moore, EdD</h3>
               </a>
               <p>Principal Consultant</p>
             </div>
-            <div className="img-box">
+            <div className='img-box'>
               <img
-                src="./assets/images/Kimberlee_Moore_1.jpg"
-                alt="moore advance solution founder"
+                src='./assets/images/Kimberlee_Moore_1.jpg'
+                alt='moore advance solution founder'
               />
             </div>
           </div>
-          <div className="founder-section-content">
+          <div className='founder-section-content'>
             <p>
               Kimberlee Moore has almost two decades of experience in global
               higher education quality assurance and accreditation. She has
@@ -155,16 +168,17 @@ const About = () => {
             </p>
           </div>
         </section>
-        <section className="prof-engagements-section mb-section">
+        <section className='prof-engagements-section mb-section'>
           <h4>Professional Engagements and Service</h4>
           <ul>
             {ENGAGEMENTS.map((engagement, i) => {
-              let { logoName, title, content } = engagement;
+              let { logoName, title, content, borderTop } = engagement;
               return (
                 <ListItem
                   logoName={logoName}
                   title={title}
                   content={content}
+                  borderTop={borderTop}
                   key={i}
                 />
               );
@@ -198,10 +212,10 @@ const About = () => {
           </div>
         </section> */}
 
-        <section className="why-us-section mb-section ">
-          <div className="text-box">
+        <section className='why-us-section mb-section '>
+          <div className='text-box'>
             <strong>
-              <i className="tag-name">Why Moore Advanced Solutions</i>
+              <i className='tag-name'>Why Moore Advanced Solutions</i>
             </strong>
             {/* <h2>Improving Organizational Effectiveness </h2> */}
             <ul>
@@ -226,9 +240,9 @@ const About = () => {
                 {/* <img src='./assets/icons/check.svg' alt='check icon' /> */}
                 <div>
                   <h3>Experiences</h3>
-                  <ul className="nested">
+                  <ul className='nested'>
                     <li>
-                      <img src="./assets/icons/check.svg" alt="check icon" />
+                      <img src='./assets/icons/check.svg' alt='check icon' />
                       <p>
                         US and international quality assurance and accreditation
                         at higher education institutions, quality agencies, and
@@ -236,7 +250,7 @@ const About = () => {
                       </p>
                     </li>
                     <li>
-                      <img src="./assets/icons/check.svg" alt="check icon" />
+                      <img src='./assets/icons/check.svg' alt='check icon' />
                       <p>
                         Organizational effectiveness initiatives at for-profit
                         and non-profit organizations
@@ -248,24 +262,24 @@ const About = () => {
             </ul>
           </div>
 
-          <div className="image-box">
+          <div className='image-box'>
             <img
-              src="./assets/images/idea-3.jpg"
-              alt="woman working with a laptop"
+              src='./assets/images/idea-3.jpg'
+              alt='woman working with a laptop'
             />
           </div>
         </section>
 
-        <section className="cta-section">
-          <div className="text-box">
+        <section className='cta-section'>
+          <div className='text-box'>
             <h2>Let's work together</h2>
             {/* <p>
               Towards better organizational quality assurance and management.
             </p> */}
           </div>
 
-          <div className="link-box">
-            <Link to="/contact-us">Contact Us</Link>
+          <div className='link-box'>
+            <Link to='/contact-us'>Contact Us</Link>
           </div>
         </section>
       </main>
