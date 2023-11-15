@@ -87,7 +87,7 @@ const ENGAGEMENTS = [
     content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. Virtual May 2022`,
   },
   {
-    title: 'Board of Directors',
+    title: 'Board of Directors,',
     borderTop: true,
     content: ` Spooky Action Theater, Washington, DC, 2020-2022; University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
   },
