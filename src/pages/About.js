@@ -11,7 +11,7 @@ const ENGAGEMENTS = [
     content: `, “Evaluation of Challenges for the
         Accreditation and Oversight of Third-Party Ed-Tech Providers.”
         International Network for Quality Assurance Agencies in Higher Education
-        Annual Convention, June, 2023 Astana, Kazakhstan`,
+        Annual Convention, June, 2023, Astana, Kazakhstan`,
   },
   {
     title: 'Contributing Expert Consultant',
@@ -25,7 +25,7 @@ const ENGAGEMENTS = [
     borderTop: false,
     content: `, “An Integrated Approach to People
         Development across the QA Organization.” International Network for
-        Quality Assurance Agencies in Higher Education Annual Forum, June, 2022
+        Quality Assurance Agencies in Higher Education Annual Forum, June, 2022,
         Mexico City, Mexico`,
   },
   {
@@ -94,17 +94,17 @@ const ENGAGEMENTS = [
   {
     title: 'Board of Directors',
     borderTop: false,
-    content: `, Spooky Action Theater, Washington, DC, USA 2020-2022`,
+    content: `, Spooky Action Theater, Washington, DC, USA, 2020-2022`,
   },
   {
     title: 'Leadership Council Member',
     borderTop: false,
-    content: `, Open Society Institute-Baltimore, Baltimore, MD, USA 2014-2022`,
+    content: `, Open Society Institute-Baltimore, Baltimore, MD, USA, 2014-2022`,
   },
   {
     title: 'Accreditation Appeal Board Member',
     borderTop: false,
-    content: `, Accreditation Review Commission on Education for the Physician Assistant, Atlanta, GA, USA 2021`,
+    content: `, Accreditation Review Commission on Education for the Physician Assistant, Atlanta, GA, USA, 2021`,
   },
 ];
 
