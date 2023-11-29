@@ -29,6 +29,11 @@ const ENGAGEMENTS = [
         Mexico City, Mexico`,
   },
   {
+    title: 'External Reviewer,',
+    borderTop: false,
+    content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. May 2022, Virtual`,
+  },
+  {
     title: 'Panelist',
     borderTop: false,
     content: `, “The Role of Accreditation in Advancing
@@ -82,19 +87,14 @@ const ENGAGEMENTS = [
         October 2012, Baltimore, MD, USA`,
   },
   {
-    title: 'External Reviewer,',
-    borderTop: false,
-    content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. Virtual May 2022`,
-  },
-  {
-    title: 'Board of Directors,',
+    title: 'Board of Directors',
     borderTop: true,
-    content: ` University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
+    content: `, University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
   },
   {
-    title: 'Board of Directors,',
+    title: 'Board of Directors',
     borderTop: false,
-    content: ` Spooky Action Theater, Washington, DC, USA 2020-2022;`,
+    content: `, Spooky Action Theater, Washington, DC, USA 2020-2022`,
   },
   {
     title: 'Leadership Council Member',
@@ -160,7 +160,7 @@ const About = () => {
               of the Liverpool, Liverpool, UK; a Master of Public Policy degree
               from the University of Maryland, College Park, MD, USA; a
               Postgraduate Certificate in Business Administration from the
-              Georgetown University School of Continuing Studies, Washington,
+              Georgetown University, Washington,
               DC, USA; and a Bachelor of Arts degree from the University of
               Georgia, Athens, GA, USA.
             </p>
