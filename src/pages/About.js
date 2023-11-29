@@ -159,7 +159,7 @@ const About = () => {
               Kimberlee holds a Doctor of Education degree from the University
               of the Liverpool, Liverpool, UK; a Master of Public Policy degree
               from the University of Maryland, College Park, MD, USA; a
-              Postgraduate Certificate in Business Administration from the
+              Postgraduate Certificate in Business Administration from
               Georgetown University, Washington,
               DC, USA; and a Bachelor of Arts degree from the University of
               Georgia, Athens, GA, USA.
