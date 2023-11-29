@@ -97,12 +97,6 @@ const ENGAGEMENTS = [
     content: ` Spooky Action Theater, Washington, DC, USA 2020-2022;`,
   },
   {
-    title: 'Board of Directors,',
-    borderTop: false,
-    content: ` University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
-  },
-
-  {
     title: 'Leadership Council Member',
     borderTop: false,
     content: `, Open Society Institute-Baltimore, Baltimore, MD, USA 2014-2022`,
