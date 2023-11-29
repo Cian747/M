@@ -11,7 +11,7 @@ const ENGAGEMENTS = [
     content: `, “Evaluation of Challenges for the
         Accreditation and Oversight of Third-Party Ed-Tech Providers.”
         International Network for Quality Assurance Agencies in Higher Education
-        Annual Convention, June, 2023 Astana, Kazakhstan`,
+        Annual Convention, June, 2023, Astana, Kazakhstan`,
   },
   {
     title: 'Contributing Expert Consultant',
@@ -25,8 +25,13 @@ const ENGAGEMENTS = [
     borderTop: false,
     content: `, “An Integrated Approach to People
         Development across the QA Organization.” International Network for
-        Quality Assurance Agencies in Higher Education Annual Forum, June, 2022
+        Quality Assurance Agencies in Higher Education Annual Forum, June, 2022,
         Mexico City, Mexico`,
+  },
+  {
+    title: 'External Reviewer,',
+    borderTop: false,
+    content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. May 2022, Virtual`,
   },
   {
     title: 'Panelist',
@@ -82,24 +87,24 @@ const ENGAGEMENTS = [
         October 2012, Baltimore, MD, USA`,
   },
   {
-    title: 'External Reviewer,',
-    borderTop: false,
-    content: ` Health and Medicine Division of the National Academies of Sciences, Engineering, and Medicine’s publication- Exploring a Culture of Fairness, Respect, and Anti-Racism in Health Professions Education: Educational Product of a Workshop Series. Virtual May 2022`,
+    title: 'Board of Directors',
+    borderTop: true,
+    content: `, University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
   },
   {
     title: 'Board of Directors',
-    borderTop: true,
-    content: `University of St. Augustine for Health Sciences, San Marcos, CA, USA, 2023-Present`,
+    borderTop: false,
+    content: `, Spooky Action Theater, Washington, DC, USA, 2020-2022`,
   },
   {
     title: 'Leadership Council Member',
     borderTop: false,
-    content: `, Open Society Institute-Baltimore, Baltimore, MD, 2014-2022`,
+    content: `, Open Society Institute-Baltimore, Baltimore, MD, USA, 2014-2022`,
   },
   {
     title: 'Accreditation Appeal Board Member',
     borderTop: false,
-    content: `, Accreditation Review Commission on Education for the Physician Assistant, 2021`,
+    content: `, Accreditation Review Commission on Education for the Physician Assistant, Atlanta, GA, USA, 2021`,
   },
 ];
 
@@ -154,13 +159,13 @@ const About = () => {
               Kimberlee holds a Doctor of Education degree from the University
               of the Liverpool, Liverpool, UK; a Master of Public Policy degree
               from the University of Maryland, College Park, MD, USA; a
-              Postgraduate Certificate in Business Administration from the
-              Georgetown University School of Continuing Studies, Washington,
+              Postgraduate Certificate in Business Administration from
+              Georgetown University, Washington,
               DC, USA; and a Bachelor of Arts degree from the University of
               Georgia, Athens, GA, USA.
             </p>
             <p>
-              In addition to Ms. Moore, clients benefit from additional
+              In addition to Kimberlee, clients benefit from additional
               resources via an extensive professional network that she has
               developed over her career consisting of experienced professionals
               from a variety of disciplines. These resources can be leveraged as

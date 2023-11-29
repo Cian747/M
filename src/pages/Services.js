@@ -69,9 +69,9 @@ function Services() {
                                 <li>Goal Setting</li>
                                 <li>Organizational Leadership and Management Coaching</li>
                                 <li>Professional Development and Training</li>
+                                <li>Program Evaluation</li>
                                 <li>Quality Management System Development and Implementation</li>
                                 <li>Strategic Planning and Implementation</li>
-                                <li>Program Evaluation (after Professional Development and Training)</li>
                             </ul>
                             {/* <div>
                               <button type="button" name="" id="" class="btn btn-primary"><Link to='/contact-us'>Reach out</Link></button>
