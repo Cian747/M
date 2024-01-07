@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 180rem;
   margin: 0 auto;
 }
 
@@ -1250,6 +1250,87 @@ input:checked ~ .faq-content {
 }
 
 /* Media Queries */
+
+/*****************************/
+/* ABOVE 1200PX */
+/*****************************/
+@media (min-width: 190em) {
+
+  .container{
+    min-width: 100%;
+  }
+
+  html{
+    font-size: 120%;
+  }
+
+  strong i{
+    font-size: 120%;
+  }
+
+  .btn{
+    font-size: 120%;
+  }
+
+  .about-us-image img{
+    height: 600px;
+    width: 800px;
+    margin-left: 2em;
+  }
+
+  .step-exp h2{
+    font-size: 120%;
+  }
+
+  .step{
+    width: 600px;
+  }
+
+  .step img {
+    width: 450px;
+    height: 350px;
+  }
+
+  .Navigation li{
+    font-size: 120%;
+    height: 40px;
+  }
+
+  .services-offered-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Homepage-content-text{
+    font-size: 120%;
+  }
+
+  .Homepage-image img{
+    height: 800px;
+    width: 700px;
+    margin-left: 2em;
+  }
+
+  .tag-name{
+    font-size: 120%;
+  }
+
+  .faq-content{
+    font-size: 130%;
+  }
+
+  .card{
+    max-width: 600px;
+  }
+
+  /* .card__image{
+    height: 100px;
+    width: 120px;
+  } */
+
+}
+
 /*****************************/
 /* BELOW 1200PX              */
 /*****************************/
