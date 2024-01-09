@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 180rem;
+  max-width: 200em;
   margin: 0 auto;
 }
 
@@ -1254,7 +1254,7 @@ input:checked ~ .faq-content {
 /*****************************/
 /* ABOVE 1200PX */
 /*****************************/
-@media (min-width: 190em) {
+@media (min-width: 200em) {
 
   .container{
     min-width: 100%;
