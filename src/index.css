@@ -1059,15 +1059,15 @@ hr {
 
   background: #f1edec;
 
-  padding: 1.2rem;
+  padding: 1.4rem;
 
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 
-  max-width: 130rem;
+  max-width: 135rem;
 
   margin: 0 auto;
 
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 
 .faq-check {
@@ -1254,7 +1254,7 @@ input:checked ~ .faq-content {
 /*****************************/
 /* ABOVE 1200PX */
 /*****************************/
-@media (min-width: 200em) {
+@media (min-width: 180em) {
 
   .container{
     min-width: 100%;
@@ -1316,8 +1316,18 @@ input:checked ~ .faq-content {
     font-size: 120%;
   }
 
+  .faq{
+    max-width: 180rem;
+    font-size: 2.4rem;
+
+  }
+
+  /* .faq-label{
+    font-size: 150%;
+  } */
+
   .faq-content{
-    font-size: 130%;
+    font-size: 2.4rem;
   }
 
   .card{
@@ -1328,6 +1338,8 @@ input:checked ~ .faq-content {
     height: 100px;
     width: 120px;
   } */
+
+
 
 }
 
